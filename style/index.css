@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+.m-calculator .mouse-down-color{
+	background-color: #999!important;
+}
+
+.m-calculator{
+	margin:0 auto;
+	position: relative;
+	width: 320px;
+	height: 540px;
+	border: 1px solid #333;
+	font-family: "Microsoft YaHei";
+}
+.m-calculator .title{
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	text-indent: 10px;
+}
+
+/* 输出显示 */
+.m-calculator .show{
+	position: absolute;
+	top: 50px;
+	left: 9px;
+	width: 300px;
+	height: 80px;
+	border: 1px solid #999;
+}
+
+.m-calculator .show .output{
+	height: 20px;
+	line-height: 20px;
+	font-size: 18px;
+	text-align: right;
+	padding-right: 5px;
+}
+.m-calculator .show .result{
+	height: 60px;
+	line-height: 60px;
+	font-size: 40px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+
+.m-calculator .number{
+	position: absolute;
+	left: 0;
+	top: 240px;
+	width: 240px;
+	
+	
+}
+.m-calculator .number li,
+.m-calculator .calculate-symbol li,
+.m-calculator .special li{
+	float: left;
+	width: 80px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	
+	font-size: 24px;
+	background-color: #eee;
+	cursor: default;
+}
+
+.m-calculator .number li:hover,
+.m-calculator .calculate-symbol li:hover,
+.m-calculator .special li:hover{
+	background-color: #ccc;
+}
+.m-calculator .calculate-symbol{
+	position: absolute;
+	top: 180px;
+	left:240px;
+	width: 80px;
+}
+.m-calculator .special{
+	position: absolute;
+	top: 180px;
+	left:0px;
+	width: 240px;	
+}
